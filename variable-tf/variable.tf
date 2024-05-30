@@ -5,6 +5,6 @@ variable role {
         type = string
 }
 
-output info {
+output client-info {
         value = "My office address is ${var.work-address}, my role is ${var.role}"
 }

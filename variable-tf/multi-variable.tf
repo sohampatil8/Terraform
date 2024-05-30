@@ -1,14 +1,10 @@
 variable officer {
         type = list
-        default = ["Mr. SOHAM PATIL, I know you are DevOps Engineer I need Your help" , "Mr. Root" , "Dear sir"]
+        default = ["Mr.SOHAM PATIL(DevOps Engineer), I need Your help" , "Mr. Root" , "Dear sir"]
 }
 
 variable Name {
         type = string
-}
-
-variable age {
-        type = number
 }
 
 variable city {
@@ -20,5 +16,5 @@ variable reason {
 }
 
 output Main-info {
-        value = "Hello, ${var.officer [0]}, I am ${var.Name}, my age is ${var.age}, I am from ${var.city}, Reason is ${var.reason}"
+        value = "Hello, ${var.officer [0]}, I am ${var.Name}, I am from ${var.city}, Reason is ${var.reason}"
 }
