@@ -19,6 +19,6 @@ variable reason {
         type = string
 }
 
-output print {
+output Main-info {
         value = "Hello, ${var.officer [0]}, I am ${var.Name}, my age is ${var.age}, I am from ${var.city}, Reason is ${var.reason}"
 }

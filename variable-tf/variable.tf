@@ -1,10 +1,10 @@
-variable username {
+variable work-address {
         type = string
 }
-variable age {
-        type = number
+variable role {
+        type = string
 }
 
-output print {
-        value = "hello ${var.username}, my age is ${var.age}"
+output info {
+        value = "My office address is ${var.work-address}, my role is ${var.role}"
 }
