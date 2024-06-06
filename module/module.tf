@@ -25,7 +25,7 @@ module "ec2" {
     instance_ami = "ami-0eb9d67c52f5c80e5"
     instance_type = "t2.micro"
     key_name = "soham"
-    vpc-security-group = module.vpc.security_group_id
+    vpc-security-group = module.VPC.security_group_id
     availability_zone = "us-west-2a"
     instance_volume_size = "8"
     instance_count = "1"
