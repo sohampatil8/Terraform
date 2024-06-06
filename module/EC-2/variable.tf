@@ -19,6 +19,10 @@ variable "availability_zone" {
     type = string
 }
 
+variable "subnet_id" {
+    type = string
+}
+
 variable "instance_volume_size" {
     type = string
 }
@@ -27,6 +31,6 @@ variable "instance_count" {
     type = string
 }
 
-variable "instance_tag" {
+variable "instance_tags" {
     type = string
 }
