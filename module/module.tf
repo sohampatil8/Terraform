@@ -21,7 +21,7 @@ module "vpc" {
 }
 
 module "ec2" {
-    source = "./ec-2/"
+    source = "./EC-2/"
     instance_ami = "ami-0eb9d67c52f5c80e5"
     instance_type = "t2.micro"
     key_name = "soham"
