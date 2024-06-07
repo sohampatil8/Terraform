@@ -1,7 +1,7 @@
 provider "aws" {
   region  = "us-west-2"   # Oregon region
-  access_key = "AKIAZI2LIYMIMVHE73QL"
-  secret_key = "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"
+  access_key = "AKIIE73QL"
+  secret_key = "kVNiZcTJq2YBscIrTUtkVhRY"
 }
 
  resource "aws_key_pair" "key-tf" {
